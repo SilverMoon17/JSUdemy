@@ -10,7 +10,7 @@ console.log('age: ', age);
 
 let answers = [];
 
-answers[0] = prompt("Введите ваше имя!", "");
-answers[1] = prompt("Введите вашу фамилию!", "");
-answers[2] = +prompt("Введите ваш возраст!", "");
+answers[0] = prompt("Введите ваше имя:", "");
+answers[1] = prompt("Введите вашу фамилию:", "");
+answers[2] = +prompt("Введите ваш возраст:", "");
 
