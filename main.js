@@ -1,16 +1,19 @@
 'use strict';
 
-let choice = confirm("Are you here?"); // возвращает true/false
-console.log('choice: ', choice);
+const str = "test number 1";
 
-let age = prompt("Введите ваш возраст!", "18"); /* возвращает введенные данные в виде строки(string), 
-                                                   если данные не введены, вводит значение "18" */
-let ageNumber = +prompt("Введите ваш возраст!", "18"); /* "+" возвращает введенные данные в виде числа(number) */
-console.log('age: ', age);
 
-let answers = [];
+console.log(str.indexOf('um', 2));
+console.log(str.toUpperCase());
 
-answers[0] = prompt("Введите ваше имя:", "");
-answers[1] = prompt("Введите вашу фамилию:", "");
-answers[2] = +prompt("Введите ваш возраст:", "");
+const logg = "Hello world!";
 
+console.log(logg.slice(6, 11));
+console.log(logg.substr(6, 6));
+
+const num = 12.49;
+
+console.log(Math.round(num));
+
+const test = "213324.6px";
+console.log(parseInt(test));
